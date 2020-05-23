@@ -8,5 +8,6 @@ We'll be using data from the "Census Income Data Set" for our project.
 ```{r}
 # Upload the code in R through the following command. 
 adult.data <- read.table('adult.csv', header = T)
+##### 
 ```
 
