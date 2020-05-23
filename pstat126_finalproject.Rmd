@@ -1,6 +1,6 @@
 ---
 title: "finalproject.Rmd"
-author: "Amelia Meyer"
+author: "Amelia", "Tiana", "Hailey" 
 date: "5/22/2020"
 output: pdf_document
 ---
