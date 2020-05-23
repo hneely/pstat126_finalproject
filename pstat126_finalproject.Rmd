@@ -1,6 +1,6 @@
 ---
 title: "finalproject.Rmd"
-author: "Amelia", "Tiana", "Hailey" 
+author: "Amelia Meyer"
 date: "5/22/2020"
 output: pdf_document
 ---
@@ -8,5 +8,6 @@ We'll be using data from the "Census Income Data Set" for our project.
 ```{r}
 # Upload the code in R through the following command. 
 adult.data <- read.table('adult.csv', header = T)
+
 ```
 
