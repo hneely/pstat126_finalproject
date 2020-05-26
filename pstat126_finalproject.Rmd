@@ -1,11 +1,26 @@
 ---
-title: "finalproject.Rmd"
-author: "Amelia", "Tiana", "Hailey" 
-date: "5/22/2020"
-output: pdf_document
+title: "Analysis of Census Income Regression"
+author: "Tiana Curry, Amelia Meyer, Hailey Neely"
+date: "6/12/20"
+output:
+  html_document: default
+  pdf_document:
+    citation_package: null
+    fig_caption: yes
+    highlight: default
+    keep_tex: no
+    latex_engine: pdflatex
+  word_document: default
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+- \usepackage{amsmath}
 ---
+
+\vspace{0.25in}
+
 We'll be using data from the "Census Income Data Set" for our project.
-```{r}
+```{r tidy = TRUE, message = FALSE, warning = FALSE, error = FALSE}
 # Upload the code in R through the following command. 
 adult.data <- read.table('adult.csv', header = T)
 ##### 
